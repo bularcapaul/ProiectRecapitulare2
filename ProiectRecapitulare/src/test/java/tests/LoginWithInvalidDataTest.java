@@ -16,11 +16,15 @@ public class LoginWithInvalidDataTest extends BaseTest {
     public void loginWithInvalidData(){
         login = new Login(driver);
         register = new Register(driver);
+        ConfigLoader configLoader = new ConfigLoader("src/main/java/resources/user.properties");
+
+        String invalidEmail = configLoader.getProperty("invalidEmail");
+        String invalidPassword = configLoader.getProperty("invalidPassword");
 
 
         register.clickDropMenuButton();
         register.clickSignUpLink();
-        login.loginWithInvalidCredentials();
+        login.login(invalidEmail, invalidPassword);
 
         Assert.assertEquals(login.getInvalidCredentialsText(), "Invalid email or password");
 

@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding a login test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MultipleLoginAttempsWithWrongPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/LoginElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginWithInvalidDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginWithInvalidDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +63,7 @@
     "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginWithInvalidDataTest.executor": "Run",
+    "TestNG.MultipleLoginAttempsWithInvalidData.executor": "Run",
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
     "git-widget-placeholder": "Creating-logins-tests",
@@ -100,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733753420208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding a login test">
+      <option name="closed" value="true" />
+      <created>1733754906047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733754906047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

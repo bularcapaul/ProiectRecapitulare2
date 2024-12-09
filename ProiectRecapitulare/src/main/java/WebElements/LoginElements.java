@@ -36,5 +36,9 @@ public class LoginElements {
         return driver.findElement(By.className("help-block"));
     }
 
+    public WebElement multipleAttemptsText(){
+        return driver.findElement(By.className("help-block"));
+    }
+
 
 }
