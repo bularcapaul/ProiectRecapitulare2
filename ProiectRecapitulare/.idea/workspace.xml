@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding the register test">
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding a login test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
@@ -57,6 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginWithInvalidDataTest.executor": "Run",
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
     "git-widget-placeholder": "Creating-logins-tests",
@@ -91,12 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733742914853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding a login test">
+      <option name="closed" value="true" />
+      <created>1733753420207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733753420208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding the register test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the register test" />
+    <MESSAGE value="Adding a login test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a login test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
