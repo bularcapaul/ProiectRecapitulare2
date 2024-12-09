@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding a login test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utile/ConfigLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utile/ConfigLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utile/RaportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utile/RaportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utile/ScreenshotUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utile/ScreenshotUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/proprietati/urls.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/proprietati/urls.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="Creating-registert-test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -42,7 +38,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/bularcapaul/ProiectRecapitulare.git",
+    "url": "https://github.com/bularcapaul/ProiectRecapitulare2.git",
     "accountId": "a6d53e51-083f-436a-a47f-cc208c42d2ab"
   }
 }]]></component>
@@ -60,9 +56,11 @@
     "Maven.ProiectRecapitulare [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginWithInvalidDataTest.executor": "Run",
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
-    "git-widget-placeholder": "Creating-registert-test",
+    "git-widget-placeholder": "Creating-logins-tests",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/main/java/testautomationu/Main.java"
   }
@@ -86,7 +84,29 @@
       <option name="presentableId" value="Default" />
       <updated>1733472067876</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding the register test">
+      <option name="closed" value="true" />
+      <created>1733742914853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733742914853</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding a login test">
+      <option name="closed" value="true" />
+      <created>1733753420207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733753420208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding the register test" />
+    <MESSAGE value="Adding a login test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a login test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -95,6 +115,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/testautomationu/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Actions/AccountPage.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
