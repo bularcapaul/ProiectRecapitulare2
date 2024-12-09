@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="" />
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utile/ConfigLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utile/ConfigLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utile/RaportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utile/RaportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utile/ScreenshotUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utile/ScreenshotUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proprietati/urls.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/proprietati/urls.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -46,16 +60,21 @@
     "Maven.ProiectRecapitulare [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
+    "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Creating-registert-test",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/main/java/testautomationu/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EBULARPMI\Downloads\tau-the-bowlingstar-master\ProiectRecapitulare\src\main\java\resources" />
       <recent name="C:\Users\EBULARPMI\Downloads\tau-the-bowlingstar-master\ProiectRecapitulare\src\test\java" />
       <recent name="C:\Users\EBULARPMI\Downloads\tau-the-bowlingstar-master\ProiectRecapitulare\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="utile" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,5 +98,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="By.xpath(&quot;//h3[text()='Login']&quot;" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
