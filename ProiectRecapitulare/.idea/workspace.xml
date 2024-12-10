@@ -7,7 +7,10 @@
     <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding a login test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/AccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/AccountPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/AccountPageElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="Creating-registert-test" />
+        <entry key="$PROJECT_DIR$/.." value="Creating-logins-tests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -56,11 +59,13 @@
     "Maven.ProiectRecapitulare [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
+    "TestNG.ChangePhoneNumberTest.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginWithInvalidDataTest.executor": "Run",
+    "TestNG.MultipleLoginAttempsWithInvalidData.executor": "Run",
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
-    "git-widget-placeholder": "Creating-logins-tests",
+    "git-widget-placeholder": "Creating-new-phone-number-test",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/main/java/testautomationu/Main.java"
   }
@@ -100,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733753420208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding a login test">
+      <option name="closed" value="true" />
+      <created>1733754906047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733754906047</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding a login test">
+      <option name="closed" value="true" />
+      <created>1733757611962</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733757611962</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,11 +136,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/testautomationu/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Actions/AccountPage.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

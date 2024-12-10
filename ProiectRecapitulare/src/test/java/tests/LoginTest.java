@@ -20,6 +20,8 @@ public class LoginTest extends BaseTest {
 
         ConfigLoader configLoader = new ConfigLoader("src/main/java/resources/user.properties");
         String email = configLoader.getProperty("email");
+        String password = configLoader.getProperty("password");
+
 
         register = new Register(driver);
         login = new Login(driver);
@@ -28,9 +30,11 @@ public class LoginTest extends BaseTest {
         register.clickDropMenuButton();
         register.clickSignUpLink();
 
-        login.login();
+        login.login(email, password);
 
         Assert.assertEquals(accountPage.getMyAccountText(),"My account");
+
+        accountPage.pressProfileLink();
         Assert.assertEquals(accountPage.getTextFromEmailField(), email);
 
     }

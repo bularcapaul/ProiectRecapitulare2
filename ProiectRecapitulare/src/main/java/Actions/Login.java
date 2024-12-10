@@ -44,32 +44,35 @@ public void pressLoginButton(){
     loginElements.loginButton().click();
     }
 
-    public void login(){
-        ConfigLoader configLoader = new ConfigLoader("src/main/java/resources/user.properties");
+    public void pressLoginButtonMultipleTimes() throws InterruptedException {
+    for(int i = 0; i < 10; i++) {
+        loginElements.loginButton().click();
+        Thread.sleep(1000);
+    }
+    }
 
-        String email = configLoader.getProperty("email");
-        String password = configLoader.getProperty("password");
-
+    public void login(String email, String password){
         setEmail(email);
         setPassword(password);
         pressLoginButton();
     }
 
-    public void loginWithInvalidCredentials()
-    {
-        ConfigLoader configLoader = new ConfigLoader("src/main/java/resources/user.properties");
-        String invalidEmail = configLoader.getProperty("invalidEmail");
-        String invalidPassword = configLoader.getProperty("invalidPassword");
-
+    public void loginWithMultipleAttempts(String invalidEmail, String invalidPassword) throws InterruptedException {
         setEmail(invalidEmail);
         setPassword(invalidPassword);
-        pressLoginButton();
+        pressLoginButtonMultipleTimes();
     }
 
     public String getInvalidCredentialsText()
     {
         wait.until(d -> loginElements.invalidCredentialsText().isDisplayed());
-    return loginElements.invalidCredentialsText().getText();
+        return loginElements.invalidCredentialsText().getText();
+    }
+
+    public String getMultipleAttemptsText()
+    {
+        wait.until(d -> loginElements.multipleAttemptsText().isDisplayed());
+        return loginElements.multipleAttemptsText().getText();
     }
 
 
