@@ -29,17 +29,31 @@ public class AccountPage {
     }
 
     public void pressProfileLink(){
+        wait.until(d -> accountPageElements.profileLink().isDisplayed());
         accountPageElements.profileLink().click();
     }
 
-    public String textFromEmailField(){
+    public String getTextFromEmailField(){
         wait.until(ExpectedConditions.attributeToBeNotEmpty(accountPageElements.emailField(), "value"));
         return accountPageElements.emailField().getAttribute("value");
     }
 
-    public String getTextFromEmailField(){
-        pressProfileLink();
-        return textFromEmailField();
+    public void clearCurrentPhone(){
+        wait.until(ExpectedConditions.attributeToBeNotEmpty(accountPageElements.phoneField(), "value"));
+        accountPageElements.phoneField().clear();
+    }
+
+    public void setNewPhone(String phone){
+        accountPageElements.phoneField().sendKeys(phone);
+    }
+
+    public void pressUpdateProfileButton(){
+        accountPageElements.updateProfileButton().click();
+    }
+
+    public String getProfileUpdatedSuccessfullyText(){
+        wait.until(d -> accountPageElements.profileUpdateSuccessfullyText().isDisplayed());
+        return accountPageElements.profileUpdateSuccessfullyText().getText();
     }
 
 

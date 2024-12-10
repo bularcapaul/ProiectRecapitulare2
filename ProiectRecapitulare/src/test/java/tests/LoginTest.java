@@ -33,6 +33,8 @@ public class LoginTest extends BaseTest {
         login.login(email, password);
 
         Assert.assertEquals(accountPage.getMyAccountText(),"My account");
+
+        accountPage.pressProfileLink();
         Assert.assertEquals(accountPage.getTextFromEmailField(), email);
 
     }

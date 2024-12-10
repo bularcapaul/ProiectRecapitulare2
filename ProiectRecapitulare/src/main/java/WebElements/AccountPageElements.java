@@ -28,6 +28,16 @@ public class AccountPageElements {
         return driver.findElement(By.id("email"));
     }
 
+    public WebElement phoneField(){
+        return driver.findElement(By.id("phone"));
+    }
 
+    public WebElement updateProfileButton(){
+        return driver.findElement(By.cssSelector("[data-test='update-profile-submit']"));
+    }
+
+    public WebElement profileUpdateSuccessfullyText(){
+        return driver.findElement(By.cssSelector("[role='alert']"));
+    }
 
 }
