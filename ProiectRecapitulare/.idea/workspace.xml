@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding a login test">
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding add products to favorites test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/AccountPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/AccountPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/ProductsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,26 +26,26 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="Creating-logins-tests" />
+        <entry key="$PROJECT_DIR$/.." value="Creating-new-phone-number-test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bularcapaul"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bularcapaul&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bularcapaul/ProiectRecapitulare2.git",
-    "accountId": "a6d53e51-083f-436a-a47f-cc208c42d2ab"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bularcapaul/ProiectRecapitulare2.git&quot;,
+    &quot;accountId&quot;: &quot;a6d53e51-083f-436a-a47f-cc208c42d2ab&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ppnpJVr2i7xc3V1HblGafgv6OR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,6 +56,8 @@
     "Application.Main.executor": "Run",
     "Maven.ProiectRecapitulare [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AddInCartTheCheapestHummer.executor": "Run",
+    "TestNG.AddProductToFavoriteList.executor": "Run",
     "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
     "TestNG.ChangePhoneNumberTest.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
@@ -65,7 +65,7 @@
     "TestNG.MultipleLoginAttempsWithInvalidData.executor": "Run",
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
-    "git-widget-placeholder": "Creating-new-phone-number-test",
+    "git-widget-placeholder": "AddProductsToFavorites",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/main/java/testautomationu/Main.java"
   }
@@ -121,13 +121,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733757611962</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding changing the phone number test">
+      <option name="closed" value="true" />
+      <created>1733833127406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733833127406</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding add products to favorites test">
+      <option name="closed" value="true" />
+      <created>1733920001072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733920001072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding the register test" />
     <MESSAGE value="Adding a login test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a login test" />
+    <MESSAGE value="Adding changing the phone number test" />
+    <MESSAGE value="Adding add products to favorites test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding add products to favorites test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -136,6 +154,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/testautomationu/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/AddInCartTheCheapestHummer.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
