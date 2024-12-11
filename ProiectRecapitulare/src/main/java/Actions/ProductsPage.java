@@ -2,8 +2,8 @@ package Actions;
 
 import WebElements.ProductsElements;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -44,5 +44,41 @@ public class ProductsPage {
         wait.until(ExpectedConditions.invisibilityOf(productsElements.productAddedToFavoritesText()));
         productsElements.dropMenuButton().click();
     }
+
+    public void enterTheProductToSearch(String searchedProduct){
+        productsElements.searchInputField().sendKeys(searchedProduct);
+    }
+
+    public void pressSearchButton(){
+        productsElements.searchButton().click();
+    }
+
+    public void searchForAProduct(String searchedProduct){
+        enterTheProductToSearch(searchedProduct);
+        pressSearchButton();
+    }
+
+    public void sortProducts(String sortType){
+        Select sortList = new Select(productsElements.sortMenu());
+        wait.until(ExpectedConditions.textToBePresentInElement(productsElements.sortMenu(), sortType));
+        sortList.selectByVisibleText(sortType);
+    }
+
+    public void clickTheCheapestHammer(){
+        wait.until(d -> productsElements.theCheapestHammer().isDisplayed());
+        productsElements.theCheapestHammer().click();
+    }
+
+    public void pressAddToCartButton(){
+        wait.until(d -> productsElements.addToCartButton().isDisplayed());
+        productsElements.addToCartButton().click();
+    }
+
+    public void pressToCartButton(){
+        wait.until(d -> productsElements.toCartButton().isDisplayed());
+        productsElements.toCartButton().click();
+    }
+
+
 
 }
