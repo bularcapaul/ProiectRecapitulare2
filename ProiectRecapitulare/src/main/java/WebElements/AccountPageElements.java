@@ -40,4 +40,20 @@ public class AccountPageElements {
         return driver.findElement(By.cssSelector("[role='alert']"));
     }
 
+    public WebElement favoritesLink(){
+        return driver.findElement(By.cssSelector("[data-test='nav-favorites']"));
+    }
+
+    public WebElement homeLink(){
+        return driver.findElement(By.cssSelector("[data-test='nav-home']"));
+    }
+
+    public WebElement toMyProfileLink(){
+        return driver.findElement(By.cssSelector("[data-test='nav-menu']"));
+    }
+
+    public WebElement toMyFavoritesLink(){
+        return driver.findElement(By.cssSelector("[data-test='nav-my-favorites']"));
+    }
+
 }

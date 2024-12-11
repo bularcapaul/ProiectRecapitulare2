@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class RegisterElements {
 
-    private WebDriver driver = null;
+    private WebDriver driver;
 
     public RegisterElements(WebDriver driver){
         this.driver = driver;

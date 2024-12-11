@@ -25,6 +25,7 @@ public class AccountPage {
     }
 
     public void pressDropMenuButton(){
+        wait.until(d -> accountPageElements.dropButtonMenu().isDisplayed());
         accountPageElements.dropButtonMenu().click();
     }
 
@@ -55,6 +56,26 @@ public class AccountPage {
         wait.until(d -> accountPageElements.profileUpdateSuccessfullyText().isDisplayed());
         return accountPageElements.profileUpdateSuccessfullyText().getText();
     }
+
+    public void pressFavoritesLink(){
+        accountPageElements.favoritesLink().click();
+    }
+
+    public void pressHomeLink(){
+        wait.until(d -> accountPageElements.homeLink().isDisplayed());
+        accountPageElements.homeLink().click();
+    }
+
+    public void pressToMyProfileLink(){
+        wait.until(d -> accountPageElements.toMyProfileLink().isDisplayed());
+        accountPageElements.toMyProfileLink().click();
+    }
+
+    public void pressToMyFavoritesLink(){
+        wait.until(d -> accountPageElements.toMyFavoritesLink().isDisplayed());
+        accountPageElements.toMyFavoritesLink().click();
+    }
+
 
 
 }
