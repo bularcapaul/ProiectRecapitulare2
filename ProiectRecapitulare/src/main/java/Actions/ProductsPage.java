@@ -95,6 +95,12 @@ public class ProductsPage {
         action.dragAndDropBy(productsElements.rightSideSlider(), XOffset, YOffset).perform();
     }
 
+    public String getProductAddedToCartText(){
+        wait.until(d -> productsElements.productAddedToCartText().isDisplayed());
+        return productsElements.productAddedToCartText().getText();
+    }
+
+
 
 
 }

@@ -69,6 +69,10 @@ public class ProductsElements {
         return driver.findElement(By.xpath("//h5[contains(@class, 'card-title') and contains(text(), 'Cordless Drill 20V')]"));
     }
 
+    public WebElement productAddedToCartText(){
+        return driver.findElement(By.cssSelector("[aria-label='Product added to shopping cart.']"));
+    }
+
 
 
 }

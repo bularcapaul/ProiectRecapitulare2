@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding the cheapest hammer test">
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="slider test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/CartPage.java" afterDir="false" />
@@ -59,6 +59,7 @@
     "Application.Main.executor": "Run",
     "Maven.ProiectRecapitulare [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Add2ProductsInCartAndCheckThePrices.executor": "Run",
     "TestNG.AddInCartTheCheapestHummer.executor": "Run",
     "TestNG.AddProductToFavoriteList.executor": "Run",
     "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
@@ -157,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733928632391</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="slider test">
+      <option name="closed" value="true" />
+      <created>1734079469462</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734079469463</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,7 +175,8 @@
     <MESSAGE value="Adding changing the phone number test" />
     <MESSAGE value="Adding add products to favorites test" />
     <MESSAGE value="Adding the cheapest hammer test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the cheapest hammer test" />
+    <MESSAGE value="slider test" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

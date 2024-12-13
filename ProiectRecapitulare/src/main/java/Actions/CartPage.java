@@ -1,7 +1,9 @@
 package Actions;
 
 import WebElements.CartElements;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -25,5 +27,25 @@ public class CartPage {
     public String getItemPrice(){
         wait.until(d -> cartElements.itemPrice().isDisplayed());
         return cartElements.itemPrice().getText();
+    }
+
+    public int getCartTableRows(){
+       return cartElements.cartTableRows().size();
+    }
+
+    public String getPriceFromSpecificProduct(String productName){
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table//tbody//tr")));
+        int tableRows = getCartTableRows();
+        String price = "";
+        for (int i = 1;i <= tableRows; i++){
+            String name = cartElements.productName(i).getText();
+
+        if (name.contains(productName))  {
+            price = cartElements.priceColumn(i).getText().replace("$", "");
+            break;
+        }
+
+        }
+        return price;
     }
 }
