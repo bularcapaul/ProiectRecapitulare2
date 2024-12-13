@@ -48,4 +48,18 @@ public class CartPage {
         }
         return price;
     }
+
+    public String getTotalPriceFromSpecificProduct(String productName){
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table//tbody//tr")));
+        int tableRows = getCartTableRows();
+        String totalPrice = "";
+        for (int i = 1; i <= tableRows; i++){
+            String name = cartElements.productName(i).getText();
+            if (name.contains(productName)) {
+                totalPrice = cartElements.totalColumn(i).getText().replace("$", "");
+                break;
+            }
+        }
+        return totalPrice;
+    }
 }

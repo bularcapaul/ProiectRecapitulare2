@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="slider test">
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="getPriceFromTable test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/ProductsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/CartElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/CartElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/ProductsElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/ProductsElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/products.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/products.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
     </list>
@@ -64,6 +65,7 @@
     "TestNG.AddProductToFavoriteList.executor": "Run",
     "TestNG.C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/test/resources/testRunner.xml.executor": "Run",
     "TestNG.ChangePhoneNumberTest.executor": "Run",
+    "TestNG.CheckTotalPriceTest.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginWithInvalidDataTest.executor": "Run",
     "TestNG.MultipleLoginAttempsWithInvalidData.executor": "Run",
@@ -166,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734079469463</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="getPriceFromTable test">
+      <option name="closed" value="true" />
+      <created>1734095729787</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734095729789</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,7 +186,8 @@
     <MESSAGE value="Adding add products to favorites test" />
     <MESSAGE value="Adding the cheapest hammer test" />
     <MESSAGE value="slider test" />
-    <option name="LAST_COMMIT_MESSAGE" value="slider test" />
+    <MESSAGE value="getPriceFromTable test" />
+    <option name="LAST_COMMIT_MESSAGE" value="getPriceFromTable test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

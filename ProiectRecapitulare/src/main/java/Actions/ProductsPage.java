@@ -100,6 +100,23 @@ public class ProductsPage {
         return productsElements.productAddedToCartText().getText();
     }
 
+    public void checkMeasuresCategory(){
+        wait.until(d -> productsElements.measuresCategory().isDisplayed());
+        productsElements.measuresCategory().click();
+    }
+
+    public void pressTapeMeasure5m(){
+        wait.until(d -> productsElements.tapeMeasure5m().isDisplayed());
+        productsElements.tapeMeasure5m().click();
+    }
+
+    public void pressPlusItemToCart(int numberOfClicks){
+        wait.until(d -> productsElements.plusItemToCart().isDisplayed());
+        for (int i = 0; i < numberOfClicks; i++ ){
+            productsElements.plusItemToCart().click();
+        }
+    }
+
 
 
 

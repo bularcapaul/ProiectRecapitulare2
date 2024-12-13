@@ -73,6 +73,22 @@ public class ProductsElements {
         return driver.findElement(By.cssSelector("[aria-label='Product added to shopping cart.']"));
     }
 
+    public WebElement measuresCategory(){
+        return driver.findElement(By.cssSelector("[data-test='category-01JF053K8ZYE727WDTJ2PC7XW8']"));
+    }
+
+    public WebElement tapeMeasure5m(){
+        return driver.findElement(By.xpath("//h5[contains(@class, 'card-title') and contains(text(), 'Tape Measure 5m')]"));
+    }
+
+    public WebElement plusItemToCart(){
+        return driver.findElement(By.cssSelector("[data-icon='plus']"));
+    }
+
+
+
+
+
 
 
 }

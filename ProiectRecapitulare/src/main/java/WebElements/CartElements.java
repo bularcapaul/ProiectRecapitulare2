@@ -35,4 +35,8 @@ public class CartElements {
         return driver.findElement(By.xpath("//table/tbody/tr[" + row + "]/td[3]"));
 
     }
+
+    public WebElement totalColumn(int row){
+        return driver.findElement(By.xpath("//table/tbody/tr[" + row + "]/td[4]"));
+    }
 }
