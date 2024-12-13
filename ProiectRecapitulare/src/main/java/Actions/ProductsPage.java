@@ -2,6 +2,7 @@ package Actions;
 
 import WebElements.ProductsElements;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
@@ -13,10 +14,12 @@ public class ProductsPage {
 
     private ProductsElements productsElements;
     private Wait<WebDriver> wait;
+    private Actions action;
 
     public ProductsPage(WebDriver driver){
         this.productsElements = new ProductsElements(driver);
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        action = new Actions(driver);
     }
 
     public void pressOnCombinationPliersProduct(){
@@ -78,6 +81,42 @@ public class ProductsPage {
         wait.until(d -> productsElements.toCartButton().isDisplayed());
         productsElements.toCartButton().click();
     }
+
+    public void pressCordlessDrillProduct(){
+        wait.until(d -> productsElements.cordlessDrill().isDisplayed());
+        productsElements.cordlessDrill().click();
+    }
+
+    public void moveLeftSlider(int XOffset, int YOffset){
+        action.dragAndDropBy(productsElements.leftSideSlider(), XOffset, YOffset).perform();
+    }
+
+    public void moveRightSlider(int XOffset, int YOffset){
+        action.dragAndDropBy(productsElements.rightSideSlider(), XOffset, YOffset).perform();
+    }
+
+    public String getProductAddedToCartText(){
+        wait.until(d -> productsElements.productAddedToCartText().isDisplayed());
+        return productsElements.productAddedToCartText().getText();
+    }
+
+    public void checkMeasuresCategory(){
+        wait.until(d -> productsElements.measuresCategory().isDisplayed());
+        productsElements.measuresCategory().click();
+    }
+
+    public void pressTapeMeasure5m(){
+        wait.until(d -> productsElements.tapeMeasure5m().isDisplayed());
+        productsElements.tapeMeasure5m().click();
+    }
+
+    public void pressPlusItemToCart(int numberOfClicks){
+        wait.until(d -> productsElements.plusItemToCart().isDisplayed());
+        for (int i = 0; i < numberOfClicks; i++ ){
+            productsElements.plusItemToCart().click();
+        }
+    }
+
 
 
 
