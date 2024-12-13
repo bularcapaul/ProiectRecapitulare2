@@ -21,4 +21,9 @@ public class CartPage {
         wait.until(d -> cartElements.itemName().isDisplayed());
         return cartElements.itemName().getText();
     }
+
+    public String getItemPrice(){
+        wait.until(d -> cartElements.itemPrice().isDisplayed());
+        return cartElements.itemPrice().getText();
+    }
 }

@@ -24,6 +24,7 @@ public class ProductsElements {
         return driver.findElement(By.xpath("//h5[contains(@class, 'card-title') and contains(text(), 'Bolt Cutters')]"));
     }
 
+
     public WebElement productAddedToFavoritesText(){
         return driver.findElement(By.cssSelector("div[role='alert']"));
     }
@@ -55,6 +56,19 @@ public class ProductsElements {
     public WebElement toCartButton(){
         return driver.findElement(By.cssSelector("#navbarSupportedContent > ul > li:nth-child(5) > a > fa-icon > svg"));
     }
+
+    public WebElement leftSideSlider(){
+        return driver.findElement(By.xpath("//*[@id=\"filters\"]/div[1]/ngx-slider/span[5]"));
+    }
+
+    public WebElement rightSideSlider(){
+        return driver.findElement(By.xpath("//*[@id=\"filters\"]/div[1]/ngx-slider/span[6]"));
+    }
+
+    public WebElement cordlessDrill(){
+        return driver.findElement(By.xpath("//h5[contains(@class, 'card-title') and contains(text(), 'Cordless Drill 20V')]"));
+    }
+
 
 
 }

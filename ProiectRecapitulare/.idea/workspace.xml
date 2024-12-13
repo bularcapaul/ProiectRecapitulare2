@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding add products to favorites test">
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="Adding the cheapest hammer test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actions/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/CartElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/CartElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/ProductsElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/ProductsElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
     </list>
@@ -65,6 +68,7 @@
     "TestNG.MultipleLoginAttempsWithInvalidData.executor": "Run",
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
+    "TestNG.SliderTest.executor": "Run",
     "git-widget-placeholder": "AddProductsToFavorites",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/main/java/testautomationu/Main.java"
@@ -137,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733920001072</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding the cheapest hammer test">
+      <option name="closed" value="true" />
+      <created>1733928393944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733928393945</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding the cheapest hammer test">
+      <option name="closed" value="true" />
+      <created>1733928632391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733928632391</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,7 +165,8 @@
     <MESSAGE value="Adding a login test" />
     <MESSAGE value="Adding changing the phone number test" />
     <MESSAGE value="Adding add products to favorites test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding add products to favorites test" />
+    <MESSAGE value="Adding the cheapest hammer test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the cheapest hammer test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

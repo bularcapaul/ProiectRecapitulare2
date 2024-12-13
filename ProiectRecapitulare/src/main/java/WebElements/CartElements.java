@@ -15,4 +15,8 @@ public class CartElements {
     public WebElement itemName(){
         return driver.findElement(By.cssSelector("[data-test='product-title']"));
     }
+
+    public WebElement itemPrice(){
+        return driver.findElement(By.cssSelector("[data-test='product-price']"));
+    }
 }
