@@ -15,4 +15,8 @@ public class SimpleElements {
     public WebElement loginText(){
         return driver.findElement(By.xpath("//h3[text()='Login']"));
     }
+
+    public WebElement slider(){
+        return driver.findElement(By.xpath("//*[@id=\"sliderContainer\"]/div[1]/span/input"));
+    }
 }

@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="getPriceFromTable test">
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="check total price test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/ProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/CartElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/CartElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/ProductsElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/ProductsElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/products.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/products.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actions/SimpleActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actions/SimpleActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebElements/SimpleElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebElements/SimpleElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/user.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/user.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/proprietati/urls.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/proprietati/urls.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +70,7 @@
     "TestNG.RegisterTest.executor": "Run",
     "TestNG.SimpleTest.executor": "Run",
     "TestNG.SliderTest.executor": "Run",
+    "TestNG.slider.executor": "Debug",
     "git-widget-placeholder": "AddProductsToFavorites",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/EBULARPMI/Downloads/tau-the-bowlingstar-master/ProiectRecapitulare/src/main/java/testautomationu/Main.java"
@@ -176,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734095729789</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="check total price test">
+      <option name="closed" value="true" />
+      <created>1734101932808</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734101932808</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,7 +194,8 @@
     <MESSAGE value="Adding the cheapest hammer test" />
     <MESSAGE value="slider test" />
     <MESSAGE value="getPriceFromTable test" />
-    <option name="LAST_COMMIT_MESSAGE" value="getPriceFromTable test" />
+    <MESSAGE value="check total price test" />
+    <option name="LAST_COMMIT_MESSAGE" value="check total price test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -201,6 +209,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/tests/AddInCartTheCheapestHummer.java</url>
           <line>35</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/slider.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
