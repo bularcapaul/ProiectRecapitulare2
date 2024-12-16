@@ -3,7 +3,7 @@ name: Run E2E Tests
 on:
   push:
     branches:
-      - main    # Rulează pe branch-ul principal
+      - master    # Rulează pe branch-ul principal
   pull_request: # Opțional: rulează și pe pull requests
 
 jobs:

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="check total price test">
+    <list default="true" id="b68306a5-379c-411c-bbcc-0c2ba4200b4f" name="Changes" comment="adding yml file">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tau-the-bowlingstar-master" beforeDir="false" afterPath="$PROJECT_DIR$/../tau-the-bowlingstar-master" afterDir="false" />
     </list>
@@ -187,7 +188,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734342200970</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="check total price test">
+      <option name="closed" value="true" />
+      <created>1734343953692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734343953692</updated>
+    </task>
+    <task id="LOCAL-00014" summary="check total price test">
+      <option name="closed" value="true" />
+      <created>1734344057217</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734344057217</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding yml file">
+      <option name="closed" value="true" />
+      <created>1734344119979</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734344119979</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,7 +224,8 @@
     <MESSAGE value="slider test" />
     <MESSAGE value="getPriceFromTable test" />
     <MESSAGE value="check total price test" />
-    <option name="LAST_COMMIT_MESSAGE" value="check total price test" />
+    <MESSAGE value="adding yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding yml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
