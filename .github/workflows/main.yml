@@ -1,0 +1,36 @@
+name: Run E2E Tests
+
+on:
+  push:
+    branches:
+      - master    # Rulează pe branch-ul principal
+  pull_request: # Opțional: rulează și pe pull requests
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17' # Sau versiunea de Java folosită în proiect
+          distribution: 'temurin'
+
+      - name: Cache Maven Dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-m2
+
+      - name: Install Dependencies
+        run: mvn install -DskipTests=true
+
+      - name: Run E2E Tests
+        run: mvn test
+//test
